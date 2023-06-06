@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button } from '@org/ui-component';
+import { Button, Label } from '@org/ui-component';
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <Button onClick={() => console.log('click')}>test</Button>
+        <Label text='label'  color='red' />
         <a
           className="App-link"
           href="https://reactjs.org"
