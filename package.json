@@ -1,0 +1,8 @@
+{
+  "name": "react-monorepo-sample",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
