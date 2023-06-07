@@ -13,7 +13,6 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <Button onClick={() => console.log('click')}>test</Button>
-        <Label text='label'  color='red' />
         <a
           className="App-link"
           href="https://reactjs.org"
